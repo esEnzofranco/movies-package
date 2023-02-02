@@ -1,0 +1,35 @@
+.switch-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 10px 1px 20px;
+}
+.switch-button {
+    display: flex;
+    border: solid 1px;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 5px 10px;
+    gap: 10px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.dark-theme {
+    background-color: rgb(20,20,20);
+    color: white;
+    border-color: white;
+}
+.light-theme {
+    background-color: white;
+    color: rgb(20,20,20);
+    border-color: rgb(20,20,20);
+}
+.prev-next-button {
+    font-size: 18px;
+}
+.display {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}

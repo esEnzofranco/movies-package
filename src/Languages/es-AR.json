@@ -1,0 +1,19 @@
+{
+    "button.home":"Principal",
+    "button.movies": "Peliculas",
+    "button.series": "Series",
+    "button.search": "Busqueda",
+    "button.previous": "🡸 Anterior",
+    "button.next": "Siguiente 🡺",
+    "by": "Desarrollado por  ",
+    "language": "Idioma",
+    "theme": "Tema",
+    "search": "Busca peliculas y series por titulo. 👇",
+    "home.movies": "Peliculas populares",
+    "home.series": "Series populares",
+    "developed.by": "Desarrollado por",
+    "vote.average": "Voto promedio:",
+    "original.title": "Titulo original:",
+    "release.date": "Lanzamiento:",
+    "go.back": "🠸 Atras"
+}

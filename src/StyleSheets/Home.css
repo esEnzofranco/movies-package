@@ -1,0 +1,77 @@
+.home-container {
+    width: 100%;
+    margin-top: 10px;
+}
+.home-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.content {
+    display: flex;
+    gap: 10px;
+}
+.link {
+    text-decoration: none;
+}
+.movie-img {
+    min-width: 200px;
+}
+.movie-title {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.movie-info-container {
+    display: flex;
+    align-items: center;
+}
+.movie-data {
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.movie-info-icon {
+    width: 20px;
+    height: 20px;
+}
+.home-content-bar {
+    overflow: scroll;
+    margin-top: 10px;
+}
+.caption {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.content-title-container {
+    align-self: center;
+    padding: 10px 1px 5px 1px;
+}
+.content::-webkit-scrollbar {
+    background-color: rgb(50, 66, 82);     
+    border-radius: 10px;
+    width: 0;
+    height: 12px;
+}
+.content::-webkit-scrollbar-thumb {
+    background-color: rgb(21, 21, 39);
+    border-radius: 10px;
+    border: solid 1px white;
+}
+
+@media only screen and (max-width:310px) {
+    .movie-title {
+        font-size: 18px;
+    }
+    .movie-info-icon {
+        width: 18px;
+    }
+    .movie-data {
+        font-size: 18px;
+    }
+}

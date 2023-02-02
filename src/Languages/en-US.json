@@ -1,0 +1,21 @@
+{
+    "button.home": "Home",
+    "button.movies": "Movies",
+    "button.series": "Series",
+    "button.search": "Search",
+    "button.previous": "🡸 Previous",
+    "button.next": "Next 🡺",
+    "by": "Developed by  ",
+    "language": "Language",
+    "theme": "Theme",
+    "search":"Search for movies and series by typing the title. 👇",
+    "home.movies": "Popular movies",
+    "home.series": "Popular series",
+    "developed.by": "Developed by",
+    "vote.average": "Vote average:",
+    "original.title": "Original title:",
+    "release.date": "Release:",
+    "go.back": "🠸 Back"
+    
+
+}

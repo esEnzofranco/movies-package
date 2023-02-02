@@ -1,0 +1,15 @@
+.control-bar {
+    width: 100%;
+    display: flex;
+    gap: 3px;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width:310px) {
+    .control-bar {
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        align-items: center;
+    }
+}

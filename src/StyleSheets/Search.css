@@ -1,0 +1,54 @@
+.first-search-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px
+}
+.movies-container {
+    min-height: 100vh;
+    width: 100%
+}
+.search-container {
+    justify-self: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+input:focus {
+    outline: none;
+}
+.search-caption {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+.input-container {
+    width:70%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 2px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icon {
+    padding: 1px 8px;
+}
+.movie-info-container {
+    display: flex;
+    gap: 25px;
+}
+.movie-info-container p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

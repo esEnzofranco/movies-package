@@ -1,0 +1,12 @@
+.themes-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.theme-icon {
+    width: 18px;
+    height: 18px;
+}
+.theme-icon:active {
+    color: gray
+}

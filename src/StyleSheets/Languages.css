@@ -1,0 +1,20 @@
+.languages-container {
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+    padding-right: 8px;
+    border-right: solid 1px;
+}
+.flag {
+    width: 25px;
+    height: 15px;
+}
+
+@media only screen and (max-width:310px) {
+    .languages-container {
+        border-right: none;
+        border-bottom: solid 1px;
+        padding-bottom: 5px;
+        padding-right: 0;
+    }
+}

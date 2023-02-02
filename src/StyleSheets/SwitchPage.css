@@ -1,0 +1,18 @@
+.switch-page-container {
+    display: flex;
+    border: solid 1px;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px;
+}
+.switch {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 1px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.switch-button {
+    font-size: 18px;
+}
