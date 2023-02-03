@@ -23,6 +23,7 @@ input {
     border: none;
     border-radius: 8px;
     margin-left: 10px;
+    font-size: 18px;
 }
 input:focus {
     outline: none;
