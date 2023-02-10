@@ -33,9 +33,13 @@ nav {
 }
 main {
     grid-column: 1/2;
-
     grid-row: 3/4;
     border-bottom: solid 1px;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer {
     grid-column: 1/2;
