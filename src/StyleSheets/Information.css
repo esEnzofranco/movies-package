@@ -1,8 +1,14 @@
 .info-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 10px;
     font-family: 'Josefin Sans', sans-serif;
+    gap: 1em
+}
+.info-container-section {
+    display: flex;
+    justify-content: space-around;
 }
 .dev-info {
     display: flex;
@@ -13,6 +19,9 @@
     width: 25px;
     height: 25px;
 }
-p {
-    font-size: 15px;
+.info-container p {
+    font-size: 1em;
+}
+a {
+    color: rgb(137, 127, 226);
 }
