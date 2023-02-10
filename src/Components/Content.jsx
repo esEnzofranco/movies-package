@@ -6,6 +6,8 @@ import MovieDetails from './MovieDetails';
 import { Route, Routes } from 'react-router-dom';
 import SerieDetails from './SerieDetails';
 import '../StyleSheets/Content.css'
+import Error404 from './Error404';
+import PersonDetails from './PersonDetails';
 
 const Content = () => {
     return(
@@ -16,9 +18,9 @@ const Content = () => {
                 <Route path='/movie/:id' element={<MovieDetails/>} />
                 <Route path='/tv' element={<Series/>}/>
                 <Route path='/tv/:id' element={<SerieDetails/>}/>
+                <Route path='/person/:id' element={<PersonDetails/>}/>
                 <Route path='/search' element={<Search/>}/>
-
-                <Route path='*' element={'error'}/>
+                <Route path='*' element={<Error404/>}/>
             </Routes>
         </div>
     )
