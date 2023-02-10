@@ -15,5 +15,10 @@
     "vote.average": "Voto promedio:",
     "original.title": "Titulo original:",
     "release.date": "Lanzamiento:",
-    "go.back": "🠸 Atras"
+    "go.back": "🠸 Atras",
+    "error.message":"Algo salio mal",
+    "place.of.birth":"Lugar de nacimiento: ",
+    "also.known.as":"Temabien conocido como: ",
+    "birthday":"Fecha de nacimiento : ",
+    "repository":"Repositorio de GitHub"
 }
