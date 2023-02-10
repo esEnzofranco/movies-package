@@ -15,7 +15,10 @@
     "vote.average": "Vote average:",
     "original.title": "Original title:",
     "release.date": "Release:",
-    "go.back": "🠸 Back"
-    
-
+    "go.back": "🠸 Back",
+    "error.message":"Something went wrong",
+    "place.of.birth":"Place of birth: ",
+    "also.known.as":"Also known as: ",
+    "birthday":"Birthday: ",
+    "repository":"Github repository"
 }
