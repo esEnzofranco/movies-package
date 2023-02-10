@@ -46,8 +46,8 @@ const handleChange=e=>{
                 movies.map((element)=>(
                     <Link key={element.id} className={`link ${theme}`} to={`/${element.media_type}/${element.id}`}>
                       <div className="movie" key={element.id}>
-                        <img className="movie-img" src={`https://image.tmdb.org/t/p/w500${element.poster_path}`} alt={element.id}/>
-                        <p className="movie-title">{element.title}</p>
+                        {element.poster_path?<img className="movie-img" src={`https://image.tmdb.org/t/p/w500${element.poster_path}`} alt=''/>:<img className="movie-img" src={`https://image.tmdb.org/t/p/w500${element.profile_path}`} alt=''/>}
+                        {element.title?<p className="movie-title">{element.title}</p>:<p className="movie-title">{element.name}</p>}
                       </div>
                     </Link>
                 ))
