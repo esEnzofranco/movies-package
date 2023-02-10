@@ -1,5 +1,4 @@
 import './StyleSheets/App.css';
-import Content from './Components/Content';
 import ControlBar from './Components/ControlBar';
 import Information from './Components/Information.jsx';
 import { useSelector } from 'react-redux';
@@ -7,6 +6,9 @@ import { IntlProvider } from 'react-intl';
 import icon from './images/icon.png'
 import NavOptions from './Components/NavOptions';
 import { Link } from 'react-router-dom';
+import { lazy, Suspense } from 'react';
+import LazyLoadingSpinner from './Components/Spinner';
+const Content = lazy(()=>import('./Components/Content'))
 
 const App = () => {
 
@@ -27,7 +29,9 @@ const App = () => {
           <NavOptions/>
         </nav>
         <main className={theme}>
-          <Content/>
+          <Suspense fallback={<LazyLoadingSpinner/>}>
+            <Content/>
+          </Suspense>
         </main>
         <footer className={theme}>
            <Information/>
