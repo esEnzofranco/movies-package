@@ -1,0 +1,16 @@
+.error-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+}
