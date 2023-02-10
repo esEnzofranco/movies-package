@@ -14,7 +14,6 @@ const SerieDetails = () => {
         const response = await fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=fc3129275538aba4418696a566334f39&language=${lang}`); 
         const data = await response.json();
         setSerie(data)
-        console.log(data)
     }
 
     useEffect(()=>{
